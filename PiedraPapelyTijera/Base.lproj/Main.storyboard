@@ -92,6 +92,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="botonPlay" destination="Lqi-Xu-rjr" id="Rbq-qX-vey"/>
                         <outlet property="labelMensaje" destination="Ty0-m1-kCv" id="LZE-Ku-0xD"/>
                         <outlet property="papelBoton" destination="2zP-er-e9N" id="WCV-Lv-iks"/>
                         <outlet property="piedraBoton" destination="sMe-YW-mDk" id="poQ-Sd-PZK"/>

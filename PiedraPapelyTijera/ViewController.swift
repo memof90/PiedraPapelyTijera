@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var papelBoton: UIButton!
     
+    @IBOutlet weak var botonPlay: UIButton!
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         
@@ -30,6 +31,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         actualiza(paraEstadoJuego: .inicio)
+        
+        botonPlay.backgroundColor = .white
     }
  
     // estado de juego con colores
@@ -52,20 +55,39 @@ class ViewController: UIViewController {
         }
     }
    
+    //funcion para ej juego
     
+    func play(_ jugadorSeñal: Señas){
+        
+        let señaOponente = señaAletorio()
+        let estadoJuego = jugadorSeñal.estadoJuego(versusSeñas: señaOponente)
+        
+        actualiza(paraEstadoJuego: estadoJuego)
+        
+        turnoComputadoraLabel.text = señaOponente.valorTexto
+        
+        switch jugadorSeñal {
+        case .piedra:
+            break
+        case .papel:
+            break
+        case .tijera:
+            break
+        }
+    }
     
      //acciones
     @IBAction func playPiedra(_ sender: UIButton) {
-        
+        play(.piedra)
     }
     
     @IBAction func playTijera(_ sender: UIButton) {
-        
+        play(.tijera)
     }
     
     
     @IBAction func playPapel(_ sender: UIButton) {
-        
+        play(.papel)
     }
     
     

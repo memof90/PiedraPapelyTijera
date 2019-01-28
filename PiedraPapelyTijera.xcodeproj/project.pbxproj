@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4B9F6721FF6E4800B633A4 /* AcercaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B9F6521FF6E4800B633A4 /* AcercaViewController.swift */; };
+		8D4B9F6821FF6E4800B633A4 /* AcercaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B9F6621FF6E4800B633A4 /* AcercaViewController.xib */; };
 		8D9CAB2E21FB6CA30022F996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CAB2D21FB6CA30022F996 /* AppDelegate.swift */; };
 		8D9CAB3021FB6CA30022F996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CAB2F21FB6CA30022F996 /* ViewController.swift */; };
 		8D9CAB3321FB6CA30022F996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9CAB3121FB6CA30022F996 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D4B9F6521FF6E4800B633A4 /* AcercaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcercaViewController.swift; sourceTree = "<group>"; };
+		8D4B9F6621FF6E4800B633A4 /* AcercaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcercaViewController.xib; sourceTree = "<group>"; };
 		8D9CAB2A21FB6CA30022F996 /* PiedraPapelyTijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiedraPapelyTijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9CAB2D21FB6CA30022F996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9CAB2F21FB6CA30022F996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				8D9CAB3F21FB6CE20022F996 /* Señas.swift */,
 				8D9CAB4421FB7DD40022F996 /* EstadoJuego.swift */,
 				8D9CAB4621FB814D0022F996 /* Colores.swift */,
+				8D4B9F6521FF6E4800B633A4 /* AcercaViewController.swift */,
+				8D4B9F6621FF6E4800B633A4 /* AcercaViewController.xib */,
 			);
 			path = PiedraPapelyTijera;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 				8D9CAB3821FB6CA50022F996 /* LaunchScreen.storyboard in Resources */,
 				8D9CAB3521FB6CA50022F996 /* Assets.xcassets in Resources */,
 				8D9CAB3321FB6CA30022F996 /* Main.storyboard in Resources */,
+				8D4B9F6821FF6E4800B633A4 /* AcercaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9CAB4721FB814D0022F996 /* Colores.swift in Sources */,
+				8D4B9F6721FF6E4800B633A4 /* AcercaViewController.swift in Sources */,
 				8D9CAB3021FB6CA30022F996 /* ViewController.swift in Sources */,
 				8D9CAB4021FB6CE20022F996 /* Señas.swift in Sources */,
 				8D9CAB4521FB7DD40022F996 /* EstadoJuego.swift in Sources */,

@@ -15,6 +15,7 @@
 		8D9CAB4021FB6CE20022F996 /* Señas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CAB3F21FB6CE20022F996 /* Señas.swift */; };
 		8D9CAB4321FB6D040022F996 /* GameplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9CAB4221FB6D040022F996 /* GameplayKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		8D9CAB4521FB7DD40022F996 /* EstadoJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CAB4421FB7DD40022F996 /* EstadoJuego.swift */; };
+		8D9CAB4721FB814D0022F996 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CAB4621FB814D0022F996 /* Colores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8D9CAB3F21FB6CE20022F996 /* Señas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Señas.swift"; sourceTree = "<group>"; };
 		8D9CAB4221FB6D040022F996 /* GameplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameplayKit.framework; path = System/Library/Frameworks/GameplayKit.framework; sourceTree = SDKROOT; };
 		8D9CAB4421FB7DD40022F996 /* EstadoJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadoJuego.swift; sourceTree = "<group>"; };
+		8D9CAB4621FB814D0022F996 /* Colores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8D9CAB3921FB6CA50022F996 /* Info.plist */,
 				8D9CAB3F21FB6CE20022F996 /* Señas.swift */,
 				8D9CAB4421FB7DD40022F996 /* EstadoJuego.swift */,
+				8D9CAB4621FB814D0022F996 /* Colores.swift */,
 			);
 			path = PiedraPapelyTijera;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9CAB4721FB814D0022F996 /* Colores.swift in Sources */,
 				8D9CAB3021FB6CA30022F996 /* ViewController.swift in Sources */,
 				8D9CAB4021FB6CE20022F996 /* Señas.swift in Sources */,
 				8D9CAB4521FB7DD40022F996 /* EstadoJuego.swift in Sources */,

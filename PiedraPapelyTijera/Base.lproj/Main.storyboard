@@ -71,7 +71,7 @@
                                 <rect key="frame" x="337" y="599" width="22" height="22"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ty0-m1-kCv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="90r-h2-Ssx"/>
                             <constraint firstItem="TqO-gC-eZW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="AhF-Ka-U5e"/>

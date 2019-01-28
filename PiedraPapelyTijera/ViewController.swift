@@ -21,14 +21,40 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var papelBoton: UIButton!
     
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        actualiza(paraEstadoJuego: .inicio)
     }
  
-    //acciones
-    
+    // estado de juego con colores
+    func actualiza(paraEstadoJuego estadoJuego: EstadoJuego) {
+        
+        labelMensaje.text = estadoJuego.mensaje
+        
+        switch estadoJuego {
+        case .inicio:
+            view.backgroundColor = Colores.brown
+           turnoComputadoraLabel.text = "❓"
+            
+            
+        case .gana:
+            view.backgroundColor = Colores.blue
+        case .pierde:
+            view.backgroundColor = Colores.red
+        case .empata:
+            view.backgroundColor = Colores.pink
+        }
+    }
    
+    
+    
+     //acciones
     @IBAction func playPiedra(_ sender: UIButton) {
         
     }
@@ -43,8 +69,10 @@ class ViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func playListo(_ sender: Any) {
-        
+        actualiza(paraEstadoJuego: .inicio)
     }
 }
 
